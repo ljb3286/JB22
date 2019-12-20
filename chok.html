@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>촉나라</title>
+	<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+	<style type="text/css">
+		li{list-style-type: none;}
+		a:link {text-decoration: none; color: black;}
+		a:visited {text-decoration: none; color: black;}
+		a:active {text-decoration: none; color: black;}
+		a:hover {text-decoration: none; color: black;}
+		body{background-image: url(pattern.jpg);}
+		section{width: 1000px;display: block;margin: auto;}
+		h1{font-family: 'Yeon Sung', cursive;text-align: center;color: white;font-weight: lighter;
+			font-size: 3em;line-height: 1.5em;}
+		h2{font-family: 'Yeon Sung',cursive;;color: black;font-weight: lighter;
+			font-size: 2.5em;line-height: 1.2em;}
+		h3{font-family: 'Yeon Sung', cursive;text-align: center;color: white;font-weight: lighter;
+			font-size: 2em;}
+		p{font-family: 'Yeon Sung',cursive;;color: black;font-weight: lighter;
+			font-size: 1.5em;line-height: 1.5em;}
+		#monitor{width: 70px;height: 30px;background:black; color: white;position:fixed; top: 0;right: 0;opacity: 0;}
+		#menu{width: 30px;height: 70px;position:fixed; top: 0;left: 25px;}
+		
+		#yu1{background-image: url("map3.png");margin: -10px;}
+		#yu2{position: absolute;top: 1400px;left: calc(50% - 600px);opacity: 0;}
+		#y0{position: fixed;width: 1200px;height: 720px;left: calc(50% - 600px);}
+		#y1{padding: 284px; opacity: 0;}
+		#y2{padding: 100px;background: white;}
+		#y3{padding: 100px;background: white;}
+		#y3a{position: relative;opacity: 0;}
+		#y3b{position: relative;opacity: 0;width: 800px;}
+		#y4{padding: 100px;background: white;padding-top: 100px;padding-bottom: 100px;}
+		#y4a{position: relative;color: red;opacity: 0;}
+		#y4b{position: relative;color: red;opacity: 0;}
+		#y4c{width: 1000px;opacity: 0;}
+		#y6{;padding: 100px;background: black;}
+		#y6a{position: absolute;top: 2620px;left: 770px;opacity: 0;margin-top: 50px;}
+		#y6b{width: 540px;position: absolute;top: 2720px;left: 100%;opacity: 0;}
+		#y6c{width: 520px;position: absolute;top: 3020px;left: 100%;opacity: 0;}
+		#y6d{width :600px;margin: -100px;margin-top: 100px; opacity: 0;}
+		#gwan1{position: absolute;top: 4259px;left: calc(50% - 600px);opacity: 0;}
+		#g0{width: 1200px;}
+		#g1{padding: 100px;background: white;opacity: 0;}
+		#g1a{width: 600px;margin-left: 500px;margin-top: -150px;}
+		#g1b{width: 520px;position: absolute;top: 1240px;left: 100px;}
+		#g1c{width: 600px;position: relative;top: 0px;left: -500px; margin-top: 50px;opacity: 0;}
+		#g1d{width: 800px;position: relative;top: 0px;left: -500px;opacity: 0;}
+		#g2{padding: 100px;background: white;}
+		#jang1{position: absolute;top: 6821px;left: calc(50% - 600px);opacity: 0;}
+		#j0{width: 1200px;}
+		#j1{padding: 100px;background: white;opacity: 0;}
+		#j2{padding: 100px;background: white;}
+		#ze1{position: absolute;top: 8813px;left: calc(50% - 600px);}
+		#z0{width: 1200px;}
+		#z1{padding: 100px;background: white;opacity: 0;}
+		#z2{padding: 100px;background: white;}
+		#z3{padding: 100px;background: white; padding-bottom: 75px;}
+		#z3a{width :600px;margin: -100px;margin-top: 50px;}
+		#z3b{position: absolute;top: 2200px;left: 50%;opacity: 0;}
+		#z3c{width: 540px;position: absolute;top: 2300px;left: 50%;opacity: 0;}
+		#footer{position: absolute;top: 11610px;left: calc(50% - 600px);width: 1200px;height: 250px;background: black;}
+		#f1{text-align: center;margin: 110px;color: white;font-weight: lighter;}
+		@keyframes op1{from{opacity: 1;}to{opacity: 0;}}
+		@keyframes op2{from{opacity: 0;}to{opacity: 1;}}
+		@keyframes po1{from{top: 1400px;;opacity: 0;}to{top: 800px;;opacity: 1;}}
+		@keyframes po2{from{top: 1000px;;opacity: 0;}to{top: 0px;;opacity: 1;}}
+		@keyframes po3{from{top: 1010px;;opacity: 0;}to{top: 10px;;opacity: 1;}}
+		@keyframes po4{from{left: -500px;;opacity: 0;}to{left: 0px;;opacity: 1;}}
+		@keyframes po5{from{left: 100%;;opacity: 0;}to{left: 50%;;opacity: 1;}}
+		@keyframes po6{from{top: 800px;;opacity: 1;}to{top: 1400px;;opacity: 0;}}
+		@keyframes po7{from{top: 4259px;;opacity: 0;}to{top: 3959px;;opacity: 1;}}
+		@keyframes po8{from{top: 3959px;;opacity: 1;}to{top: 4259px;;opacity: 0;}}
+		@keyframes po9{from{top: 7121px;;opacity: 0;}to{top: 6821px;;opacity: 1;}}
+		@keyframes po10{from{top: 6821px;;opacity: 1;}to{top: 7121px;;opacity: 0;}}
+		@keyframes po11{from{top: 9113px;;opacity: 0;}to{top: 8813px;;opacity: 1;}}
+	</style>
+<body>
+    <div id="monitor"></div>
+    <div id="yu1">
+		<section id="y0">
+			<img src="yubi.jpg">
+		</section>
+		<section id="y1">
+			<img src="yubi1.jpg" style="width: 30%;display: block;margin: auto;margin-top: 50px;">
+			<h3 style="color: white;text-align: center;">AC. 161 ~ 223</h3> 
+			<h1>한나라의 황실의 후손으로 인의와 도덕을 갖추고<br>수많은 시련을 극복하여 촉한의 초대 황제가 되었다.</h1>
+		</section>
+	</div>
+	<div id="yu2">
+		<section id="y2">
+			<h2 style="margin-top: 50px;">유비의 출신</h2>
+			<p style="width: 830px;">유비는 한나라의 황실의 후손으로 그는 팔이 길어 그대로 뻗어 무릎까지 닿고, 귀도 남달리 커서<br>거울을 사용하지 않고도 자신의 귀를 볼 수 있었다고 하는데, 이런 생김새는 부처의 모습에서 가져와서<br>민중의 바람이 만들어낸 영웅의 모습이다. 조조와 달리 인의와 도덕을 중시해 삼국지의 주인공이 되었다.<br>유비는 한나라 경제의 중산정왕의 후손으로 추측되지만 확실하지 않다. 탁군 탁현 출신의 유비는 소설에선 아버지를 여의고 홀어머니와 짚신과 돗자리를 짜며 생활했던 빈민으로 묘사하지만, 사실 짚신과 돗자리로<br>사업까지 했던 중산층이었다. 유비는 15살 때 부터  노식에게 가르침을 받았는데 공부는 멀리하고<br>화려한 의복을 걸치고 음악을 듣거나 말 같은 동물에 관심이 많았다.</p>
+		</section>
+		<section id="y3">
+			<h2 id="y3a">유비의 유랑</h2>
+			<p id="y3b">황건적의 의 난이 일어나자 유비는 관우, 장비와 함께 모집한 의병들을 이끌고 난을 진압하였다.<br>그 공적으로 현령에 임명되었으나 관리들의 부정에 염증을 느끼고 관직을 버리고 떠났다. 이후 각지의 제후들에게 몸을 맡기며 떠도는 유랑생활을 하였다. 처음에 공손찬에게 찾아간  유비는 조조가 서주를 공격하자 도겸의 구원 요청에 도겸을 돕게 되었고 이때 도겸의 신임을 얻어 도겸이 죽은 후에 서주를<br>다스리게 된다. 하지만 이내 여포에게 서주를 빼앗기게 되고 유비는 조조에게 의지하게 된다.<br>여포를 무찌른 후 유비는 조조에게 달아나 다시 서주를 차지하고 세력을 키운다. 하지만 조조와의<br>전투에서 크게 패하고 원소를 찾아가 몸을 맡긴다. 후에 관도대전에서 원소가 조조에게 패한 후에 유비는 형주의 유표를 찾아간다.</p>
+		</section>
+		<section id="y4">
+			<img src="yubi2.jpg" id="y4c">
+			<h2 id="y4a">유비에 대한 거짓 - 장판파 전투</h2>
+			<p id="y4b">유비가 형주에 머물고 있을 때 조조가 형주를 공격해오자 형주 백성 상당수가 유비를 따라나서 피난했다.<br>백성들을 데리고 가느라 하루에 겨우 10리 밖에 행군하지 못했다. 백성을 두고 먼저 행군해야 한다는 신하들의 말에도,<br>유비는 '지금 사람들이 나만 의지하고 있는데,어찌 이들을 버리고 갈 수 있겠는가?' 라고 말하며 모두를 감동시킨 유비는<br>이 때 사실 조조의 추격에 처자식까지 버리고 튀었다. 하지만 신하와 백성들이 아무도 버리고 도망쳤다고 생각하지 않았고 한다. 모두가 자신을 믿고 따르게 만드는 비범한 능력을 유비는 가지고 있었다. 결국 유비는 장판교에서 추격당해 조조에게 크게<br> 패하고 유표의 큰아들 유기가 있는 하구로 도망쳤다. 그 후 유비는 손권과 동맹을 맺어 조조에게 대항하는 연합군을 결성한다.</p>
+		</section>
+		<section id="y6">
+			<img src="yubi1.jpg" id="y6d">
+			<h2 id="y6a">유비의 업적</h2>
+			<p id="y6b">유비는 항상 말수가 적었으며, 감정을 겉으로 드러내지 않았고,<br>늘 남을 공손히 대하였다. 또한 의로운 사람들과 사귀기를 좋아했다고<br>한다. 또한 남의 말을 끝까지 들어주며 자신이 항상 최선을 다해서<br>그들을 도와주려고 했다. 그 때문에 수많은 실패를 겪어도 부하들이 떠나지 않고 끝까지 함께했다. 서촉을 점령했을 때는 분열되어 있던<br>촉나라 백성들을 하나로 통합하는데 성공하여 나라를 세우고<br>결국 황제의 자리까지 올랐다.</p>
+				<p id="y6c">'인의와 도덕을 리더십에 적절히 활용하고<br>사람들의 마음을 사로잡아 인재를 발굴해내는 사람이었다.'</p>
+		</section>
+	</div>
+	</div>
+	<div id="gwan1">
+		<section id="g0">
+			<img src="gwanwu.jpg">
+			<h1 style="color: yellow;">문무를 겸비한 삼국지 삼국지 최고의 명장<br>의리와 충심의 대명사<br>후대에 무장의 신이 되는 인물</h1>
+		</section>
+		<section id="g1">
+			<h2>청룡언월도와 적토마</h2>
+			<img src="bluedragon.jpg" id="g1a">
+			<p id="g1b">키가 9척, 수염 길이가 2자이며, 얼굴이 홍시처럼 붉고,<br>기름을 바른 듯한 입술, 붉은 봉황의 눈,누에가 누운 듯한 눈썹 등의<br> 인상으로 묘사된다. 그리고 관우의 무기 청룡언월도가 추가되어,<br>오늘날의 관우상이 완성된다. 무게가 82근이나 되는 청룡언월도는 삼국지연의에서 나관중이 관우의 무기로서 꾸며낸 이야기다.<br>정사 삼국지에서 관우의 무기는 언월도가 아닌 일반 칼, 대도, 삭, 모 등이 있었던 것으로 보인다.</p>
+			<img src="horse.jpg" id="g1c"> 
+			<p id="g1d">삼국지연의에는 조조가 여포로부터 뺏은 적토마를 관우에게 주었으며, 관우가 패하여 생포당하자<br>적토마도 먹지도 마시지도 않다가 관우와 같이 죽었다는 이야기가 있다. 그러나 정사에선 여포가<br>'적토'라는 말을 탔었다는 것 외에 적토마의 행방에 대해 구체적인 언급이 없으며, 실제로 조조가<br>관우에게 주었다고 해도 말의 수명을 고려했을 때 오래 살았다고 보기 힘들다.</p>
+		</section>
+		<section id="g2">
+			<h2>관우의 무력</h2>
+				<p style="width: 830px;">관우의 무예는 당대 최강의 수준이었다. 역사서에도 관우와 장비는 1만명을 상대할 능력이 있었다고 한다.<br>다만 소설 속 관우의 눈부신 전과는 다른 장수들의 세운 전과를 관우에게 몰아준 것이다. 대표적으로<br>관우가 조조에게 사로잡혔을 때 유비에게 돌아가기 위해 조조의 부하들을 차례로 상대한 오관돌파나<br>조조 휘하에서 있는 원소의 장수 안량과 문추를 상대하여 승리한 일화가 있다.<p>
+				<p>최강의 무예와 더불어 상당한 통솔력과 지도력이 지닌 군인이었지만 때때로 사대부들에게는 오만한 모습을 보이곤 했다.</p>
+		</section>
+	</div>
+	<div id="jang1">
+		<section id="j0">
+			<img src="jangbi.jpg">
+			<h1 style="color: yellow;margin: 50px;">관우와 더불어 최강의 맹장이며 삼국지의 최고의 마초남</h1>
+		</section>
+		<section id="j1">
+			<h2>장비의 능력</h2>
+			<p style="width: 840px;">우리가 흔히 떠올리는 폭력적이고 술주정을 부리는 인간이 아니라 장비는 뼛속까지 군인이었던 사람이다.<br>용맹은 물론이고 군대의 지휘, 전술, 전략 모두 최상급인 용장이었다. 소설 속 장비가 부하들을 매질 하거나<br>심하게 대하는 건 장비의 성질이 포악해서가 아니라 모두 군 지휘관으로써 군율에 의한 형벌이었다.<br>장비의 능력을 가장 잘 보여주었던 장판파 전투는 실제로 있었던 전투였다. 조조를 피해 도망치던 유비를<br>지키기 위해 장비는 기병 20명만으로 수가 훨씬 많은 조조군을 막아낸다. 또한 유비가 촉을 정벌할 때<br>군 지휘관으로써 뛰어나 공을 세웠다. 장비는 적들에게 위협적인 존재였고 아군에겐 신임 받던 군인이었다.</p>
+		</section>
+		<section id="j2">
+			<h2>장비의 최후</h2>
+				<p style="width: 840px;">장비는 부하들에게는 엄격하고 두려운 상관이었고, 사대부에 속한 사람들 중에서 소인들에게는 굉장히<br>무례하게 대했다. 부하에게 가혹하게 대하는 모습을 본 유비가 유비가 몇 차례 경고를 할 정도였고<br>이를 고치지 못하다가 관우가 죽고 복수심에 불타 전쟁 준비를 미루는 부하들을 심하게 매질했고 결국<br>앙심을 품은 부하들에게 암살당하고 만다.<p>
+				<p>군자는 아끼지만 소인을 보살피지 않는다. 이러한 행동에 상대와 끊임없이 갈등이 일어났고 결국 배반을 당했다.</p>
+		</section>
+	</div>
+	<div id="ze1">
+		<section id="z0">
+			<img src="zegalryang.jpg">
+			<h1 style="color: yellow;margin: 50px;">삼국지 최고의 천재이자  중국 역사상 최고의 지략과 충의의 정치인</h1>
+		</section>
+		<section id="z1">
+			<h2>제갈량의 진실 - 삼고초려</h2>
+			<p style="width: 800px;">와룡 선생이라 부리던 제갈공명은 유비를 도와 촉한을 건국하는 제업을 이루었다. 사실 별명이<br>누운 용(와룡)인 이도 아무도 알아주는 이가  없어서다. 집에서 농사나 짓던 제갈량을 찾아온 유비는<br>제갈량의 눈에 성에 차지 않았고 세 번이나 거절했지만 계속해서 찾아오는 유비에게 감격하여<br>결국 유비와 함께하게 되었다. 사실 제갈량은 우리가 생각하는 전투를 지휘하는 전략가가 아니라<br>뛰어난 통치력을 보이는 공정한 행정가였다. 실제로 전투에 나선 적은 거의 없고 주로 후방에서<br>병력 모집이나 보급이나 관리를 도맡았다.</p>
+		</section>
+		<section id="z2">
+			<h2>제갈량의 한계 - 읍참마속</h2>
+				<p style="width: 800px;">유비가 죽고 암울한 상황 속에서 제갈량은 혼자서 촉나라를 이끌었다. 그리고 절망적인 상황을<br>타계하기 위해 직접 군대를 모아 북벌을 계획한다. 만반의 준비를 마친 후 제갈량은 황제 유선에게 출사표를 올리고 위나라를 공격한다. 8년간 5번의 원정 중에 거의 성공할 뻔 했던 1차 원정에서<br>선봉으로 삼았던 마속의 명령위반으로 완벽한 기회를 날리고 1차 원정은 실패하게 된다. 촉으로 돌아간 제갈량은 비통한 심정으로 마속을 사형에 처한다. 이 사건은 스스로는 천재였지만 인재를 찾아내어<br>적재적소에 쓰는 능력이 부족했던 제갈량의 단점이 드러난다.<p>
+		</section>
+		<section id="z3">
+			<img src="zegalryang1.jpg" id="z3a">
+			<h2 id="z3b">제갈량에 대한 평가</h2>
+				<p id="z3c">제갈량은 백성들을 안정시키고, 가야 할 길을 제시하고, 시대에 맞는 정책을 내고, 마음을 열고, 공정한 정치를 행하였다. 백성들은 모두 그를 존경하고 사랑했다. 형벌과 정치는 엄격했는데도 원망하는 자가 없었던 것은 그의 마음가짐이 공평하고 상벌이 명확했기 때문이다. 그러나 위나라 원정에서 성공을 거둘 수 없었던 것은 임기응변의 군략은 그의 장기가 아니었기 때문이 아닐까...<p>
+		</section>
+	</div>
+	<div id="footer">
+		<h4 id="f1">© Copyright ©2019 All rights reserved | 삼국지 환상깨부수기 Designed by HKNU design 이재범</h4>
+	</div>
+	<div id="menu">
+    	<ul>
+			<li><a href="./index.html"><h3 style="font-size: 2em;">삼국지도</h3></a></li>
+		</ul>
+	</div>
+
+	<script type="text/javascript">
+		window.onscroll = function(){
+		var t = document.documentElement.scrollTop + document.body.scrollTop;
+		monitor.innerHTML = t;
+		if(t > 50){y0.style.animation = "op1 1s forwards";}
+		else{y0.style.animation = "";}
+		if(t > 150){y1.style.animation = "op2 2s forwards";}
+		else{y1.style.animation = "";}
+		if(t > 600){yu1.style.animation = "op1 1s forwards";}
+		else{yu1.style.animation = "";}
+		if(t > 600){yu2.style.animation = "po1 2s forwards";}
+		if(t > 900){y3a.style.animation = "po2 2s forwards";}
+		if(t > 900){y3b.style.animation = "po3 2s forwards";}
+		if(t > 1900){y3.style.background = "black";}
+		else{y3.style.background = "";}
+		if(t > 1900){y4.style.background = "black";}
+		if(t > 2200){y4a.style.animation = "po4 1s forwards";}
+		if(t > 2200){y4b.style.animation = "po4 1s forwards";}
+		if(t > 1900){y4c.style.animation = "op2 2s forwards";}
+		if(t > 2900){y6.style.background = "white";}
+		if(t > 3000){y6a.style.animation = "op2 2s forwards";}
+		if(t > 3000){y6a.style.animation = "po5 2s forwards";}
+		if(t > 3000){y6b.style.animation = "op2 2s forwards";}
+		if(t > 3000){y6b.style.animation = "po5 2s forwards";}
+		if(t > 3200){y6c.style.animation = "op2 2s forwards";}
+		if(t > 3200){y6c.style.animation = "po5 2s forwards";}
+		if(t > 2900){y6d.style.animation = "op2 2s forwards";}
+		if(t > 3700){yu2.style.animation = "po6 2s forwards";}
+		else{yu2.style.background = "";}
+		if(t > 3700){gwan1.style.animation = "po7 2s forwards";}
+		if(t > 4700){g1.style.animation = "op2 1s forwards";}
+		if(t > 5300){g1c.style.animation = "po4 2s forwards";}
+		if(t > 5300){g1d.style.animation = "po4 2s forwards";}
+		if(t > 6400){gwan1.style.animation = "po8 2s backwards";}
+		else{gwan1.style.background = "";}
+		if(t > 6400){jang1.style.animation = "po9 2s forwards";}
+		if(t > 7400){j1.style.animation = "op2 1s forwards";}
+		if(t > 7400){j2.style.animation = "op2 1s forwards";}
+		if(t > 8400){jang1.style.animation = "po10 2s backwards";}
+		else{gwan1.style.background = "";}
+		if(t > 8400){ze1.style.animation = "po11 2s forwards";}
+		if(t > 9400){z1.style.animation = "op2 1s forwards";}
+		if(t > 9400){z2.style.animation = "op2 1s forwards";}
+		if(t > 9400){z3.style.animation = "op2 1s forwards";}
+		if(t > 10600){z3b.style.animation = "op2 1s forwards";}
+		if(t > 10600){z3c.style.animation = "op2 1s forwards";}
+		}	
+	</script>
+</body>
+</html>
